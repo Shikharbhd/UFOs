@@ -4,9 +4,9 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO Finder</title>
-
 
     <!--link to BootStrap-->    
     <link
@@ -15,7 +15,6 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
 
     <!--link to external CSS file-->
     <link rel="stylesheet" href="static/css/style.css">
@@ -29,8 +28,6 @@
            <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
-
-
 
     <!--Webpage Header-->
     <div class="jumbotron">
@@ -69,14 +66,12 @@
         </div>
     </div>
 
-
-
     <!--Filter and Table-->
     <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
                 <form class="bg-dark">
-                    <p><b><u>FILTER SEARCH</u></b></p>
+                    <p>FILTER SEARCH</p>
                     <ul class="bg-dark">
 
                         <!-- CHALLENGE NEED - Filter Using New <form> Tag-->
@@ -87,22 +82,22 @@
 
                         <li class="list-group" class="btn-dark">
                             <label for="city">Enter City</label>
-                            <input type="text" placeholder="benton" id="city">
+                            <input type="text" placeholder="City" id="city">
                         </li>
 
                         <li class="list-group" class="btn-dark">
                             <label for="state">Enter State</label>
-                            <input type="text" placeholder="ar" id="state">
+                            <input type="text" placeholder="State" id="state">
                         </li>
 
                         <li class="list-group" class="btn-dark">
                             <label for="country">Enter Country</label>
-                            <input type="text" placeholder="us" id="country">
+                            <input type="text" placeholder="Country" id="country">
                         </li>
 
                         <li class="list-group" class="btn-dark">
                             <label for="shape">Enter Shape</label>
-                            <input type="text" placeholder="circle" id="shape">
+                            <input type="text" placeholder="Shape" id="shape">
                         </li>
                         
                         <li class="list-group" class="btn-dark">
@@ -113,9 +108,7 @@
                             <button id="clear-btn" type="button" class="btn-dark">
                             Clear Table
                             </button>
-
                         </li>
-
                     </ul>
                 </form>
           </div>
@@ -143,8 +136,8 @@
       
       <!--JS Script with D3 Library-->
       </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-      <script src="static/js/data.js"></script>
-      <script src="static/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 </body>
 </html>
